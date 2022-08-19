@@ -1,0 +1,60 @@
+.videofooter {
+    position: relative;
+    color: white;
+    bottom: 150px;
+    margin-left: 40px;
+    display: flex;
+  }
+  
+  .videofooter_text {
+  
+  flex: 1;
+  }
+  
+  
+  .videofooter_ticker{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  
+  }
+  .videofooter_record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+  
+  .videofooter_icon {
+    position: absolute;
+    left: 0;
+  }
+  
+  .videofooter_ticker > .ticker {
+    height: 10px;
+    margin-left: 30px;
+    width: 60%;
+    font-size: 10px;
+    
+  }
+  
+  .videoFooter__text > h3 {
+    padding-bottom: 20px;
+  }
+  .videoFooter__text > p {
+    padding-bottom: 20px;
+  }
+  .videoFooter__ticker h1 {
+    padding-top: 7px;
+  }
+  
+  @keyframes spinTheRecord {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
